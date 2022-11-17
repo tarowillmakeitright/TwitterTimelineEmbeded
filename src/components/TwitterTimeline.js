@@ -45,6 +45,11 @@ function TwitterTimeline () {
         screenName="TechCrunch"
         options={{ height: 400 }}
       />
+　　　　<TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="livedoornews"
+        options={{ height: 400 }}
+      />
     </div>
   );
 }
