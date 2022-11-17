@@ -3,8 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 /*
 =============== 
 Variables
@@ -67,3 +66,11 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+
+h1{
+  text-align: center;
+  font-family: 'Rubik Bubbles', cursive;
+  padding: 30px;
+}
+
+ 
