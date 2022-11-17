@@ -4,9 +4,10 @@ import '../components/styles/style.css';
 
 function TwitterTimeline () {
   return (
-    <div className="subtitle">
-        <h1>I'm 'LIL JAP KID. Fuck Off algo... Show my likes.</h1> 
-     </div>
+   <div className="twitterTimeline">
+   <div className="subtitle">
+        <h1>I'm 'LIL JAP KID. Fuck Off algo... Show my likes.</h1>
+      </div>
 
     <div className="twitterTimeline">
       <TwitterTimelineEmbed
