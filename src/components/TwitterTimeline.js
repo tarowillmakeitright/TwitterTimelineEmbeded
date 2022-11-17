@@ -55,6 +55,16 @@ function TwitterTimeline () {
         screenName="Qiita"
         options={{ height: 400 }}
       />
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="zerohedge"
+        options={{ height: 400 }}
+      />
+       <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="ReutersJapan"
+        options={{ height: 400 }}
+      />
     </div>
   );
 }
