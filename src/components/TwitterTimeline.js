@@ -4,12 +4,11 @@ import '../components/styles/style.css';
 
 function TwitterTimeline () {
   return (
-   <div className="twitterTimeline">
-   <div className="subtitle">
+    <div className="twitterTimeline">
+      <div className="subtitle">
         <h1>I'm 'LIL JAP KID. Fuck Off algo... Show my likes.</h1>
       </div>
 
-    <div className="twitterTimeline">
       <TwitterTimelineEmbed
         sourceType="profile"
         screenName="gigazine"
@@ -50,7 +49,7 @@ function TwitterTimeline () {
         screenName="TechCrunch"
         options={{ height: 400 }}
       />
-　　　　<TwitterTimelineEmbed
+      <TwitterTimelineEmbed
         sourceType="profile"
         screenName="livedoornews"
         options={{ height: 400 }}
@@ -65,7 +64,7 @@ function TwitterTimeline () {
         screenName="zerohedge"
         options={{ height: 400 }}
       />
-       <TwitterTimelineEmbed
+      <TwitterTimelineEmbed
         sourceType="profile"
         screenName="ReutersJapan"
         options={{ height: 400 }}
