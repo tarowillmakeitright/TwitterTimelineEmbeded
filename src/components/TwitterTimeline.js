@@ -4,7 +4,7 @@ import '../components/styles/style.css';
 
 function TwitterTimeline () {
   return (
-    <p>俺はLILJAPKKIDアルゴに支配せれたくない男だ</p>
+    <p>俺はLILJAPKKID。アルゴに支配せれたくない男だ</p>
     <div className="twitterTimeline">
       <TwitterTimelineEmbed
         sourceType="profile"
