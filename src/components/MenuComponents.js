@@ -8,18 +8,18 @@ export default function MenuComponents() {
     <div className="menu_button">
       <Menu menuButton={<button className="btn-primary">Open menu</button>}>
         <MenuItem
-          href="https://top10.netflix.com/"
+          href="https://trends.google.com/trends/trendingsearches/daily?geo=US"
           target="_blank"
           rel="noopener noreferrer"
         >
-          GOOGLE TRENDS (new window)
+          GOOGLE TRENDS (US)
         </MenuItem>
         <MenuItem
           href="https://top10.netflix.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          NETFLIX (new window)
+          NETFLIX (US)
         </MenuItem>
         <MenuItem>Close Window</MenuItem>
       </Menu>
