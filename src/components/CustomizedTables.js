@@ -44,7 +44,7 @@ const rows = [
     "イーロンマスク",
     // ジャンル
     "イノベーション",
-    <a href="www.amazon.co.jp/dp/B00NQ3QONK" target="_blank" rel="noreferrer">
+    <a href="https://www.amazon.co.jp/dp/B00NQ3QONK" target="_blank" rel="noreferrer">
       Amazon
     </a>
   ),
