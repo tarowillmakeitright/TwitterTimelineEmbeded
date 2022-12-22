@@ -13,11 +13,10 @@ export default function MenuComponents() {
         <h1>LIL JAP KID</h1>
         <Menu menuButton={<button className="btn-primary">Open menu</button>}>
           <MenuItem
-            href="https://trends.google.com/trends/trendingsearches/daily?geo=US"
+            href="https://trends.google.com/trends/trendingsearches/daily?geo=US/"
             rel="noopener noreferrer"
           >
             GOOGLETRENDS
-
           </MenuItem>
           <MenuItem href="https://top10.netflix.com/" rel="noopener noreferrer">
             NETFLIX
@@ -29,10 +28,11 @@ export default function MenuComponents() {
             AMAZONRANKINGS
           </MenuItem>
           <MenuItem>
-          <Link to = "/twittertimeline">
-            Twitter
-          </Link>
-          <TwitterIcon />
+            <Link to="/twittertimeline">Twitter</Link>
+            <TwitterIcon />
+          </MenuItem>
+          <MenuItem>
+            <Link to="/booksrecommend">Book recommendations</Link>
           </MenuItem>
           <MenuItem>Close Window</MenuItem>
         </Menu>
