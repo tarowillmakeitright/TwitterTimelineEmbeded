@@ -4,7 +4,7 @@
 import "../components/styles/style.css";
 // import TwitterIcon from "@mui/icons-material/Twitter";
 import {Outlet, Link } from "react-router-dom";
-
+import "@fontsource/knewave";
 
 // export default function MenuComponents() {
 //   return (
@@ -86,7 +86,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        LIL JAP KID
+         MENU
       </Typography>
       <Divider />
       <List>
@@ -118,15 +118,15 @@ function DrawerAppBar(props) {
           >
             <MenuIcon />
           </IconButton>
-   
-            <Typography
-              variant="h6"
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-            >
-              LIL JAP KID
-            </Typography>
-          
+
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+          >
+            MENU
+          </Typography>
+
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: "#fff" }}>
@@ -158,7 +158,11 @@ function DrawerAppBar(props) {
       </Box>
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
-        <Typography>LIL JAP KID</Typography>
+        <Typography>
+          <div className="centered">
+            <h1>LIL JAP KID</h1>
+          </div>
+        </Typography>
       </Box>
     </Box>
   );
