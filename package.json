@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
+    "@fontsource/knewave": "^4.5.11",
     "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.17",
     "@szhsin/react-menu": "^3.3.0",
