@@ -2,7 +2,6 @@ import { Menu, MenuItem, } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 import "../components/styles/style.css";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import {Outlet, Link } from "react-router-dom";
 
 
@@ -27,9 +26,14 @@ export default function MenuComponents() {
           >
             AMAZONRANKINGS
           </MenuItem>
+          <MenuItem
+            href="http://portfolio-sooty-tau-91.vercel.app/"
+            rel="noopener noreferrer"
+          >
+            BLOGS
+          </MenuItem>
           <MenuItem>
             <Link to="/twittertimeline">Twitter</Link>
-            <TwitterIcon />
           </MenuItem>
           <MenuItem>
             <Link to="/booksrecommend">Book recommendations</Link>
