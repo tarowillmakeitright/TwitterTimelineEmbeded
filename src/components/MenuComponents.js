@@ -27,7 +27,7 @@ export default function MenuComponents() {
             AMAZONRANKINGS
           </MenuItem>
           <MenuItem
-            href="https://redditmatome.vercel.app/"
+            href="http://portfolio-sooty-tau-91.vercel.app/"
             rel="noopener noreferrer"
           >
             BLOGS
@@ -37,6 +37,9 @@ export default function MenuComponents() {
           </MenuItem>
           <MenuItem>
             <Link to="/booksrecommend">Book recommendations</Link>
+          </MenuItem>
+          <MenuItem>
+            <Link to="/webforliving">Web For Living</Link>
           </MenuItem>
           <MenuItem>Close Window</MenuItem>
         </Menu>

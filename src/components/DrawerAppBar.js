@@ -62,17 +62,18 @@ import Button from "@mui/material/Button";
 
 const drawerWidth = 240;
 const navItems = [
-<Link to="/">Home</Link>,
+  <Link to="/">Home</Link>,
   <a href="https://trends.google.com/trends/trendingsearches/daily?geo=US">
     Google Trends
   </a>,
-  <a href ="https://top10.netflix.com/">Netflix Ranking</a>,
-  <a href ="https://www.amazon.co.jp/-/en/gp/movers-and-shakers/digital-text/ref=zg_bsms_nav_books_0/">
+  <a href="https://top10.netflix.com/">Netflix Ranking</a>,
+  <a href="https://www.amazon.co.jp/-/en/gp/movers-and-shakers/digital-text/ref=zg_bsms_nav_books_0/">
     Amazon Ranking
   </a>,
-  <a href= "http://redditmatome.vercel.app">Blogs</a>,
+  <a href="http://portfolio-sooty-tau-91.vercel.app">Blogs</a>,
   <Link to="/booksrecommend">Book recommendations</Link>,
   <Link to="/twittertimeline">Twitter</Link>,
+  <Link to="/webforliving">WFL</Link>,
   <Outlet />,
 ];
 
