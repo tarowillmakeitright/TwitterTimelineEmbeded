@@ -44,6 +44,7 @@ class RedditMatome extends React.Component {
         this.setState({
           items: json,
           DataisLoaded: true,
+          headers: { "Content-Type": "application/json" }
         });
       });
   }
