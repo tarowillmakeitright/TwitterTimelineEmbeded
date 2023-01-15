@@ -20,7 +20,7 @@ class RedditMatome extends React.Component {
   // execute the code
   componentDidMount() {
     fetch(
-      "https://github.com/tarowillmakeitright/TwitterTimelineEmbeded/blob/main/db.json"
+      "https://liljapkid.netlify.app/db.json"
     )
       .then((res) => res.json())
       .then((json) => {
