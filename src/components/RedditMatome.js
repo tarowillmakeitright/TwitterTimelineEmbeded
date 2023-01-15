@@ -38,7 +38,7 @@ class RedditMatome extends React.Component {
   // ComponentDidMount is used to
   // execute the code
   componentDidMount() {
-    fetch("https://liljapkid.netlify.app/webforliving")
+    fetch("http://liljapkid.netlify.app/webforliving")
       .then((res) => res.json())
       .then((json) => {
         this.setState({
@@ -55,9 +55,6 @@ class RedditMatome extends React.Component {
           <h1> Pleses wait some time.... </h1>{" "}
         </div>
       );
-
-     
-
     return (
       <>
         <div className="App">
@@ -70,7 +67,7 @@ class RedditMatome extends React.Component {
                   color="text.secondary"
                   gutterBottom
                 >
-                 Number of Items {item.id};
+                 Number of Items: {item.id};
                 </Typography>
                 <Typography variant="h5" component="div">
                   Title: {item.Title}
