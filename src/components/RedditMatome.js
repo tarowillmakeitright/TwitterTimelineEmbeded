@@ -38,7 +38,7 @@ class RedditMatome extends React.Component {
   // ComponentDidMount is used to
   // execute the code
   componentDidMount() {
-    fetch("https://github.com/tarowillmakeitright/TwitterTimelineEmbeded/db.json")
+    fetch("https://github.com/tarowillmakeitright/TwitterTimelineEmbeded/blob/main/db.json")
       .then((res) => res.json())
       .then((json) => {
         this.setState({
