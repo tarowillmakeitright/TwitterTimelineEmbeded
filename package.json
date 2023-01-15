@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@fontsource/knewave": "^4.5.11",
+    "@material/tooltip": "^14.0.0",
     "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.17",
     "@szhsin/react-menu": "^3.3.0",
@@ -26,6 +27,7 @@
     "react-router-dom": "^6.5.0",
     "react-scripts": "5.0.1",
     "react-twitter-embed": "^4.0.4",
+    "tooltip": "^1.6.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
